@@ -12,17 +12,24 @@ function showProof(name) {
   let i = 0;
   let isCheating = true;
   for (let property in proofs) {
-    if (property == name) {
+    if (property === name) {
       isCheating = false;
       $('#modalTitle').html(proofs[name]["title"]);
-      $('#modalImg').attr('src', proofs[name]["src"]);
-      $('#modalImg').attr('alt', proofs[name]["alt"]);
+      $('#modalImg').attr({
+        'src': proofs[name]["src"],
+        'alt': proofs[name]["alt"]
+      });
     }
     i++;
   }
+
+  gtag('select_content', {'content_type': name});
+
   if(isCheating){
     $('#modalTitle').html("<div class=\"alert alert-danger\" role=\"alert\"> Stop trying to change my site !!!! </div>");
-    $('#modalImg').attr('src', '');
-    $('#modalImg').attr('alt', 'Image inexistante');
+    $('#modalImg').attr({
+      'src': '',
+      'alt': 'Image inexistante'
+    });
   }
 }

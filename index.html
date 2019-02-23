@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,9 +24,18 @@
     <link rel="stylesheet" href="css/custom.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="img/favicon.png">
-    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135087158-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-135087158-1');
+      gtag('event', 'page_view');
+    </script>
+
   </head>
   <body>
     <!-- Reference item-->
@@ -38,13 +47,13 @@
           <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
           <div id="navbarcollapse" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Intro</a></li>
-              <li class="nav-item"><a href="#about" class="nav-link link-scroll">A propos</a></li>
+              <li class="nav-item"><a href="#intro" class="nav-link link-scroll" onclick="gtag('search', {'search_term': 'intro'})">Intro</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link link-scroll" onclick="gtag('search', {'search_term': 'about'})">A propos</a></li>
               <!--<li class="nav-item"><a href="#services" class="nav-link link-scroll">Services</a></li>-->
               <!--<li class="nav-item"><a href="#testimonials" class="nav-link link-scroll">Testimonials</a></li>-->
-              <li class="nav-item"><a href="#references" class="nav-link link-scroll">Mon Portfolio</a></li>
+              <li class="nav-item"><a href="#references" class="nav-link link-scroll" onclick="gtag('search', {'search_term': 'references'})">Mon Portfolio</a></li>
               <!--<li class="nav-item"><a href="#customers" class="nav-link link-scroll">Clients</a></li>-->
-              <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link link-scroll" onclick="gtag('search', {'search_term': 'contact'})">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -53,10 +62,8 @@
     <!-- Intro Image-->
     <section id="intro" style="background: url(img/Informatique.jpg) center center no-repeat; background-size: cover;" class="intro-section pb-2">
       <div class="container text-center">
-        <div data-animate="fadeInDown" class="logo"><img src="img/logo-big.png" alt="logo" width="130"></div>
+        <div data-animate="fadeInDown" class="logo"><img src="img/logo.png" alt="logo"></div>
         <h1 data-animate="fadeInDown" class="text-shadow mb-5">Bonjour, hello !</h1>
-        <!-- <p data-animate="slideInUp" class="h3 text-shadow text-400">I grind HTML and CSS and then weld them with PHP into beautiful and efficient websites.</p>
-        -->
       </div>
     </section>
     <!-- About-->
@@ -90,7 +97,7 @@
                 <td></td>
               </tr>
             </table>
-            <a class="btn btn-outline-primary mt-2 mb-2 ml-5" href="data/CurriculumVitae-SteveHenriquet.pdf" target="_blank">
+            <a class="btn btn-outline-primary mt-2 mb-2 ml-5" href="data/CurriculumVitae-SteveHenriquet.pdf" target="_blank" onclick="gtag('select_content', {'content_type': 'CV'})">
               <i class="fa fa-download"></i> Curriculum vitae
             </a>
           </div>
@@ -182,7 +189,7 @@
           <!-- Reference detail-->
           <div id="references-masonry" data-animate="fadeInUp">
             <div class="row">
-              <div data-category="development" class="reference-item col-lg-3 col-md-6">
+              <div data-category="development" class="reference-item col-lg-3 col-md-6" onclick="gtag('select_content', {'content_type': 'C#'})">
                 <div class="reference"><a href="#"><img src="img/cSharp.png" alt="" class="img-fluid">
                     <div class="overlay">
                       <div class="inner">
@@ -206,7 +213,7 @@
                   </div>
                 </div>
               </div>
-              <div data-category="other" class="reference-item col-lg-3 col-md-6">
+              <div data-category="other" class="reference-item col-lg-3 col-md-6" onclick="gtag('select_content', {'content_type': 'be.wan'})">
                 <div class="reference"><a href="#"><img src="img/bewanIcon.png" alt="" class="img-fluid">
                     <div class="overlay">
                       <div class="inner">
@@ -228,12 +235,12 @@
                   </div>
                 </div>
               </div>
-              <div data-category="soft skills" class="reference-item col-lg-3 col-md-6">
+              <div data-category="soft skills" class="reference-item col-lg-3 col-md-6" onclick="gtag('select_content', {'content_type': 'tutorat'})">
                 <div class="reference"><a href="#"><img src="img/tutoring.jpg" alt="" class="img-fluid">
                     <div class="overlay">
                       <div class="inner">
-                        <h3 class="h4 reference-title">Tutoring</h3>
-                        <p>My tutoring experience</p>
+                        <h3 class="h4 reference-title">Tutorat</h3>
+                        <p>Mon expérience en tant que tuteur</p>
                       </div>
                     </div></a>
                   <div data-images="img/tutoring2.jpg" class="sr-only reference-description">
@@ -245,7 +252,7 @@
                   </div>
                 </div>
               </div>
-              <div data-category="soft skills" class="reference-item col-lg-3 col-md-6">
+              <div data-category="soft skills" class="reference-item col-lg-3 col-md-6" onclick="gtag('select_content', {'content_type': 'SIEP'})">
                 <div class="reference"><a href="#"><img src="img/Siep.png" alt="" class="img-fluid">
                     <div class="overlay">
                       <div class="inner">
@@ -267,7 +274,7 @@
                   </div>
                 </div>
               </div>
-              <div data-category="development" class="reference-item col-lg-3 col-md-6">
+              <div data-category="development" class="reference-item col-lg-3 col-md-6" onclick="gtag('select_content', {'content_type': 'hackage'})">
                 <div class="reference"><a href="#"><img src="img/hackages.jpg" alt="" class="img-fluid">
                     <div class="overlay">
                       <div class="inner">
@@ -289,7 +296,7 @@
                   </div>
                 </div>
               </div>
-              <div data-category="soft skills" class="reference-item col-lg-3 col-md-6">
+              <div data-category="soft skills" class="reference-item col-lg-3 col-md-6" onclick="gtag('select_content', {'content_type': 'JPO'})">
                 <div class="reference"><a href="#"><img src="img/JPOmin.jpg" alt="" class="img-fluid">
                     <div class="overlay">
                       <div class="inner">
@@ -312,7 +319,7 @@
                   </div>
                 </div>
               </div>
-              <div data-category="other" class="reference-item col-lg-3 col-md-6">
+              <div data-category="other" class="reference-item col-lg-3 col-md-6" onclick="gtag('select_content', {'content_type': 'CiscoIncubator'})">
                 <div class="reference"><a href="#"><img src="img/ciscoIncubatorLogo.png" alt="" class="img-fluid">
                     <div class="overlay">
                       <div class="inner">
@@ -332,7 +339,7 @@
                   </div>
                 </div>
               </div>
-              <div data-category="other" class="reference-item col-lg-3 col-md-6">
+              <div data-category="other" class="reference-item col-lg-3 col-md-6" onclick="gtag('select_content', {'content_type': 'BalckAlps'})">
                 <div class="reference"><a href="#"><img src="img/blackalps-v5-mountain-black.png" alt="" class="img-fluid">
                   <div class="overlay">
                     <div class="inner">
@@ -352,7 +359,7 @@
                   </div>
                 </div>
               </div>
-                <div data-category="soft skills" class="reference-item col-lg-3 col-md-6">
+                <div data-category="soft skills" class="reference-item col-lg-3 col-md-6" onclick="gtag('select_content', {'content_type': 'Erasmus'})">
                   <div class="reference"><a href="#"><img src="img/SuisseFlag.png" alt="" class="img-fluid">
                     <div class="overlay">
                       <div class="inner">
@@ -375,7 +382,7 @@
                     </div>
                   </div>
                 </div>
-                  <div data-category="other" class="reference-item col-lg-3 col-md-6">
+                  <div data-category="other" class="reference-item col-lg-3 col-md-6" onclick="gtag('select_content', {'content_type': 'ASTObjectis'})">
                     <div class="reference"><a href="#"><img src="img/Objectis.png" alt="Logo de Objectis" class="img-fluid">
                       <div class="overlay">
                         <div class="inner">
@@ -393,13 +400,13 @@
                       </div>
                     </div>
                   </div>
-                  <div data-category="development" class="reference-item col-lg-3 col-md-6">
-                    <div class="reference"><a href="#"><img src="img/portfolio-8.jpg" alt="" class="img-fluid">
-                        <div class="overlay">
-                          <div class="inner">
-                            <h3 class="h4 reference-title">Project name</h3>
-                            <p>Short project description goes here...</p>
-                    <!-- TODO -->
+              <!--  <div data-category="development" class="reference-item col-lg-3 col-md-6">
+                 <div class="reference"><a href="#"><img src="img/portfolio-8.jpg" alt="" class="img-fluid">
+                     <div class="overlay">
+                       <div class="inner">
+                         <h3 class="h4 reference-title">Project name</h3>
+                         <p>Short project description goes here...</p>
+                            TODO
                           </div>
                         </div></a>
                       <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
@@ -409,7 +416,7 @@
                             <i class="fa fa-picture-o"></i> Preuve</a></p>
                       </div>
                     </div>
-                  </div>
+                  </div>-->
             </div>
           </div>
         </div>
@@ -425,7 +432,7 @@
               </button>
             </div>
             <div class="modal-body">
-              <img class="m-auto" id="modalImg" src="">
+              <img class="m-auto" id="modalImg" src="" alt ="">
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -460,8 +467,8 @@
           <tr>
             <td>Social</td>
             <td>
-              <a href="https://www.linkedin.com/in/HenriquetSteve" target="_blank" data-wow-delay="0.2s" class="external ml-3 linkedin wow fadeInUp"><i class="fa fa-linkedin"></i></a>
-              <a href="https://github.com/mitraillet" target="_blank" data-wow-delay="0.4s" class="external ml-3 github wow fadeInUp"><i class="fa fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/HenriquetSteve" target="_blank" data-wow-delay="0.2s" class="external ml-3 linkedin wow fadeInUp" onclick="gtag('search', {'search_term': 'linkedin'})"><i class="fa fa-linkedin"></i></a>
+              <a href="https://github.com/mitraillet" target="_blank" data-wow-delay="0.4s" class="external ml-3 github wow fadeInUp" onclick="gtag('search', {'search_term': 'github'})"><i class="fa fa-github"></i></a>
             </td>
           </tr>
         </table>
@@ -502,9 +509,9 @@
         <div class="row">
           <div class="col-md-6 text-center text-lg-left">
             <p class="social">
-              <a href="https://www.linkedin.com/in/HenriquetSteve" target="_blank" data-wow-delay="0.2s" class="external linkedin wow fadeInUp"><i class="fa fa-linkedin"></i></a>
-              <a href="https://github.com/mitraillet" target="_blank" data-wow-delay="0.4s" class="external github wow fadeInUp"><i class="fa fa-github"></i></a>
-              <a href="mailto:steve.henriquet@gmail.com" data-wow-delay="0.6s" class="email wow fadeInUp"><i class="fa fa-envelope"></i></a></p>
+              <a href="https://www.linkedin.com/in/HenriquetSteve" target="_blank" data-wow-delay="0.2s" class="external linkedin wow fadeInUp" onclick="gtag('search', {'search_term': 'linkedin'})"><i class="fa fa-linkedin"></i></a>
+              <a href="https://github.com/mitraillet" target="_blank" data-wow-delay="0.4s" class="external github wow fadeInUp"><i class="fa fa-github" onclick="gtag('search', {'search_term': 'github'})"></i></a>
+              <a href="mailto:steve.henriquet@gmail.com" data-wow-delay="0.6s" class="email wow fadeInUp" onclick="gtag('search', {'search_term': 'mail'})"><i class="fa fa-envelope"></i></a></p>
           </div>
           <!-- /.6-->
           <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
