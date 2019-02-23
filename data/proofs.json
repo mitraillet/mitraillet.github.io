@@ -1,0 +1,7 @@
+{
+  "multiProofs" : { "title" : "Diverse certification", "src"  : "img/multiProofs.png", "alt"  : "Certification pour le Cisco Technical Presentation Lunch, visite de be.wan, la JPO et le Hackjam."},
+  "cSharpProof" : { "title" : "Attestation C#", "src" :  "img/cSharpProof.JPG", "alt"  : "Certification du suivi d'une formation en C#"},
+  "tutelageProof" : { "title" : "Attestation Tutorat", "src" :  "img/tutelageProof.JPG", "alt"  : "Preuve des heures de tutorat données"},
+  "SIEPProof" : { "title" : "Contrat du SIEP", "src" :  "img/SIEPProof.JPG", "alt"  : "Contrat du SIEP"},
+  "BlackAlpsProof" : { "title" : "Pass Black Alps", "src" :  "img/BlackAlpsProof.jpg", "alt"  : "Pass de la Black Alps"}
+}
