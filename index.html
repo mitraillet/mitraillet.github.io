@@ -47,13 +47,13 @@
           <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
           <div id="navbarcollapse" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item"><a href="#intro" class="nav-link link-scroll" onclick="ga('search', {'search_term': 'intro'})">Intro</a></li>
-              <li class="nav-item"><a href="#about" class="nav-link link-scroll" onclick="ga('search', {'search_term': 'about'})">A propos</a></li>
+              <li class="nav-item"><a href="#intro" class="nav-link link-scroll" onclick="ga('send', 'event','search', {'search_term': 'intro'})">Intro</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link link-scroll" onclick="ga('send', 'event','search', {'search_term': 'about'})">A propos</a></li>
               <!--<li class="nav-item"><a href="#services" class="nav-link link-scroll">Services</a></li>-->
               <!--<li class="nav-item"><a href="#testimonials" class="nav-link link-scroll">Testimonials</a></li>-->
-              <li class="nav-item"><a href="#references" class="nav-link link-scroll" onclick="ga('search', {'search_term': 'references'})">Mon Portfolio</a></li>
+              <li class="nav-item"><a href="#references" class="nav-link link-scroll" onclick="ga('send', 'event','search', {'search_term': 'references'})">Mon Portfolio</a></li>
               <!--<li class="nav-item"><a href="#customers" class="nav-link link-scroll">Clients</a></li>-->
-              <li class="nav-item"><a href="#contact" class="nav-link link-scroll" onclick="ga('search', {'search_term': 'contact'})">Contact</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link link-scroll" onclick="ga('send', 'event','search', {'search_term': 'contact'})">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -97,7 +97,7 @@
                 <td></td>
               </tr>
             </table>
-            <a class="btn btn-outline-primary mt-2 mb-2 ml-5" href="data/CurriculumVitae-SteveHenriquet.pdf" target="_blank" onclick="ga('select_content', {'content_type': 'CV'})">
+            <a class="btn btn-outline-primary mt-2 mb-2 ml-5" href="data/CurriculumVitae-SteveHenriquet.pdf" target="_blank" onclick="ga('send', 'event','select_content', {'content_type': 'CV'})">
               <i class="fa fa-download"></i> Curriculum vitae
             </a>
           </div>
@@ -189,7 +189,7 @@
           <!-- Reference detail-->
           <div id="references-masonry" data-animate="fadeInUp">
             <div class="row">
-              <div data-category="development" class="reference-item col-lg-3 col-md-6" onclick="ga('select_content', {'content_type': 'C#'})">
+              <div data-category="development" class="reference-item col-lg-3 col-md-6" onclick="ga('send', 'event','select_content', {'content_type': 'C#'})">
                 <div class="reference"><a href="#"><img src="img/cSharp.png" alt="" class="img-fluid">
                     <div class="overlay">
                       <div class="inner">
@@ -213,7 +213,7 @@
                   </div>
                 </div>
               </div>
-              <div data-category="other" class="reference-item col-lg-3 col-md-6" onclick="ga('select_content', {'content_type': 'be.wan'})">
+              <div data-category="other" class="reference-item col-lg-3 col-md-6" onclick="ga('send', 'event','select_content', {'content_type': 'be.wan'})">
                 <div class="reference"><a href="#"><img src="img/bewanIcon.png" alt="" class="img-fluid">
                     <div class="overlay">
                       <div class="inner">
@@ -235,7 +235,7 @@
                   </div>
                 </div>
               </div>
-              <div data-category="soft skills" class="reference-item col-lg-3 col-md-6" onclick="ga('select_content', {'content_type': 'tutorat'})">
+              <div data-category="soft skills" class="reference-item col-lg-3 col-md-6" onclick="ga('send', 'event','select_content', {'content_type': 'tutorat'})">
                 <div class="reference"><a href="#"><img src="img/tutoring.jpg" alt="" class="img-fluid">
                     <div class="overlay">
                       <div class="inner">
@@ -252,7 +252,7 @@
                   </div>
                 </div>
               </div>
-              <div data-category="soft skills" class="reference-item col-lg-3 col-md-6" onclick="ga('select_content', {'content_type': 'SIEP'})">
+              <div data-category="soft skills" class="reference-item col-lg-3 col-md-6" onclick="ga('send', 'event','select_content', {'content_type': 'SIEP'})">
                 <div class="reference"><a href="#"><img src="img/Siep.png" alt="" class="img-fluid">
                     <div class="overlay">
                       <div class="inner">
@@ -274,7 +274,7 @@
                   </div>
                 </div>
               </div>
-              <div data-category="development" class="reference-item col-lg-3 col-md-6" onclick="ga('select_content', {'content_type': 'hackage'})">
+              <div data-category="development" class="reference-item col-lg-3 col-md-6" onclick="ga('send', 'event','select_content', {'content_type': 'hackage'})">
                 <div class="reference"><a href="#"><img src="img/hackages.jpg" alt="" class="img-fluid">
                     <div class="overlay">
                       <div class="inner">
@@ -296,7 +296,7 @@
                   </div>
                 </div>
               </div>
-              <div data-category="soft skills" class="reference-item col-lg-3 col-md-6" onclick="ga('select_content', {'content_type': 'JPO'})">
+              <div data-category="soft skills" class="reference-item col-lg-3 col-md-6" onclick="ga('send', 'event','select_content', {'content_type': 'JPO'})">
                 <div class="reference"><a href="#"><img src="img/JPOmin.jpg" alt="" class="img-fluid">
                     <div class="overlay">
                       <div class="inner">
@@ -319,7 +319,7 @@
                   </div>
                 </div>
               </div>
-              <div data-category="other" class="reference-item col-lg-3 col-md-6" onclick="ga('select_content', {'content_type': 'CiscoIncubator'})">
+              <div data-category="other" class="reference-item col-lg-3 col-md-6" onclick="ga('send', 'event','select_content', {'content_type': 'CiscoIncubator'})">
                 <div class="reference"><a href="#"><img src="img/ciscoIncubatorLogo.png" alt="" class="img-fluid">
                     <div class="overlay">
                       <div class="inner">
@@ -339,7 +339,7 @@
                   </div>
                 </div>
               </div>
-              <div data-category="other" class="reference-item col-lg-3 col-md-6" onclick="ga('select_content', {'content_type': 'BalckAlps'})">
+              <div data-category="other" class="reference-item col-lg-3 col-md-6" onclick="ga('send', 'event','select_content', {'content_type': 'BalckAlps'})">
                 <div class="reference"><a href="#"><img src="img/blackalps-v5-mountain-black.png" alt="" class="img-fluid">
                   <div class="overlay">
                     <div class="inner">
@@ -359,7 +359,7 @@
                   </div>
                 </div>
               </div>
-                <div data-category="soft skills" class="reference-item col-lg-3 col-md-6" onclick="ga('select_content', {'content_type': 'Erasmus'})">
+                <div data-category="soft skills" class="reference-item col-lg-3 col-md-6" onclick="ga('send', 'event','select_content', {'content_type': 'Erasmus'})">
                   <div class="reference"><a href="#"><img src="img/SuisseFlag.png" alt="" class="img-fluid">
                     <div class="overlay">
                       <div class="inner">
@@ -382,7 +382,7 @@
                     </div>
                   </div>
                 </div>
-                  <div data-category="other" class="reference-item col-lg-3 col-md-6" onclick="ga('select_content', {'content_type': 'ASTObjectis'})">
+                  <div data-category="other" class="reference-item col-lg-3 col-md-6" onclick="ga('send', 'event','select_content', {'content_type': 'ASTObjectis'})">
                     <div class="reference"><a href="#"><img src="img/Objectis.png" alt="Logo de Objectis" class="img-fluid">
                       <div class="overlay">
                         <div class="inner">
@@ -450,7 +450,7 @@
         <table class="table m-auto align-content-center w-50">
           <tr>
             <td>E-mail</td>
-            <td><a href="mailto:steve.henriquet@gmail.com" onclick="ga('search', {'search_term': 'email'})">steve.henriquet@gmail.com</a></td>
+            <td><a href="mailto:steve.henriquet@gmail.com" onclick="ga('send', 'event','search', {'search_term': 'email'})">steve.henriquet@gmail.com</a></td>
           </tr>
           <!--
             <td>Linkedin</td>
@@ -462,13 +462,13 @@
           </tr>-->
           <tr>
             <td>Phone</td>
-            <td><a href="tel:+32 492 80 14 22" onclick="ga('search', {'search_term': 'tel'})">+32 492 80 14 22</a></td>
+            <td><a href="tel:+32 492 80 14 22" onclick="ga('send', 'event','search', {'search_term': 'tel'})">+32 492 80 14 22</a></td>
           </tr>
           <tr>
             <td>Social</td>
             <td>
-              <a href="https://www.linkedin.com/in/HenriquetSteve" target="_blank" data-wow-delay="0.2s" class="external ml-3 linkedin wow fadeInUp" onclick="ga('search', {'search_term': 'linkedin'})"><i class="fa fa-linkedin"></i></a>
-              <a href="https://github.com/mitraillet" target="_blank" data-wow-delay="0.4s" class="external ml-3 github wow fadeInUp" onclick="ga('search', {'search_term': 'github'})"><i class="fa fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/HenriquetSteve" target="_blank" data-wow-delay="0.2s" class="external ml-3 linkedin wow fadeInUp" onclick="ga('send', 'event','search', {'search_term': 'linkedin'})"><i class="fa fa-linkedin"></i></a>
+              <a href="https://github.com/mitraillet" target="_blank" data-wow-delay="0.4s" class="external ml-3 github wow fadeInUp" onclick="ga('send', 'event','search', {'search_term': 'github'})"><i class="fa fa-github"></i></a>
             </td>
           </tr>
         </table>
@@ -509,9 +509,9 @@
         <div class="row">
           <div class="col-md-6 text-center text-lg-left">
             <p class="social">
-              <a href="https://www.linkedin.com/in/HenriquetSteve" target="_blank" data-wow-delay="0.2s" class="external linkedin wow fadeInUp" onclick="ga('search', {'search_term': 'linkedin'})"><i class="fa fa-linkedin"></i></a>
-              <a href="https://github.com/mitraillet" target="_blank" data-wow-delay="0.4s" class="external github wow fadeInUp"><i class="fa fa-github" onclick="ga('search', {'search_term': 'github'})"></i></a>
-              <a href="mailto:steve.henriquet@gmail.com" data-wow-delay="0.6s" class="email wow fadeInUp" onclick="ga('search', {'search_term': 'email'})"><i class="fa fa-envelope"></i></a></p>
+              <a href="https://www.linkedin.com/in/HenriquetSteve" target="_blank" data-wow-delay="0.2s" class="external linkedin wow fadeInUp" onclick="ga('send', 'event','search', {'search_term': 'linkedin'})"><i class="fa fa-linkedin"></i></a>
+              <a href="https://github.com/mitraillet" target="_blank" data-wow-delay="0.4s" class="external github wow fadeInUp"><i class="fa fa-github" onclick="ga('send', 'event','search', {'search_term': 'github'})"></i></a>
+              <a href="mailto:steve.henriquet@gmail.com" data-wow-delay="0.6s" class="email wow fadeInUp" onclick="ga('send', 'event','search', {'search_term': 'email'})"><i class="fa fa-envelope"></i></a></p>
           </div>
           <!-- /.6-->
           <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
