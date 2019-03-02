@@ -23,13 +23,7 @@ function showProof(name) {
     i++;
   }
 
-  ga('send', {
-    hitType: 'event',
-    eventCategory: 'SelectProof',
-    eventAction: 'show',
-    eventLabel: name
-  });
-  //gtag('select_content', {'content_type': name});
+  gtag('event','select_content', {'content_type': name});
 
   if(isCheating){
     $('#modalTitle').html("<div class=\"alert alert-danger\" role=\"alert\"> Stop trying to change my site !!!! </div>");
