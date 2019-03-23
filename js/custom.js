@@ -23,8 +23,6 @@ function showProof(name) {
     i++;
   }
 
-  gtag('event','select_content', {'content_type': name});
-
   if(isCheating){
     $('#modalTitle').html("<div class=\"alert alert-danger\" role=\"alert\"> Stop trying to change my site !!!! </div>");
     $('#modalImg').attr({
