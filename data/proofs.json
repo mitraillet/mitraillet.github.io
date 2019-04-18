@@ -6,5 +6,6 @@
   "BlackAlpsProof" : { "title" : "Pass Black Alps", "src" :  "img/BlackAlpsProof.jpg", "alt"  : "Pass de la Black Alps"},
   "StipMvibProof" : { "title" : "Attestation de participation au challenge", "src" :  "img/StibMvibProof.png", "alt"  : "Attestation de participation au challenge Stib/Mvib"},
   "FTTHProof" : { "title" : "Attestation au MOOC", "src" :  "img/FTTHProof.png", "alt"  : "Attestation au MOOC portant sur le FTTH"},
-  "VeilleTechnologiqueProof" : { "title" : "Attestation au MOOC", "src" :  "img/VeilleTechnologiqueProof.png", "alt"  : " Attestation au MOOC portant sur la veille technologique"}
+  "VeilleTechnologiqueProof" : { "title" : "Attestation au MOOC", "src" :  "img/VeilleTechnologiqueProof.png", "alt"  : "Attestation au MOOC portant sur la veille technologique"},
+  "ChillOutProof" : { "title" : "Photo d'une soirée au Chill'Out", "src" :  "img/ChillOutProof.jpg", "alt"  : "Photo d'une soirée au Chill'Out"}
 }
