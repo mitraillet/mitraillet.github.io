@@ -2,3 +2,10 @@
 li {
     color: #555;
 }
+
+.pointerHover {
+    text-align: center;
+}
+.pointerHover:hover {
+    cursor: pointer;
+}

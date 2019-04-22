@@ -1,12 +1,21 @@
-let birthDate = new Date(1995, 4, 21);
-let todayDate = new Date();
-let age = (todayDate-birthDate)/(1000*60*60*24*365);
+
+function getAge() {
+  var today = new Date();
+  var birthDate = new Date(1995, 3, 21);
+  var age = today.getFullYear() - birthDate.getFullYear();
+  var m = today.getMonth() - birthDate.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+    age--;
+  }
+  return age;
+}
+
 let proofs;
 $.getJSON("data/proofs.json", function(data){
   proofs = data;
 });
 
-$('#age').html(parseInt(age));
+$('#age').html(getAge());
 
 function showProof(name) {
   let i = 0;
