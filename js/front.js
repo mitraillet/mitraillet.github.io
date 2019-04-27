@@ -262,7 +262,7 @@ function map() {
                 zoom: 15,
                 panControl: false,
                 mapTypeId: google.maps.MapTypeId.ROADMAP
-            }
+            };
             var map = new google.maps.Map(mapCanvas, mapOptions);
 
             var markerImage = 'img/marker.png';
