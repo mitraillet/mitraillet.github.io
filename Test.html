@@ -4,6 +4,9 @@
     <title>Henriquet Steve E-Portfolio</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="E-Portfolio regroupant le parcours de Steve Henriquet" name="description">
+    <meta content="Steve Henriquet,Henriquet,Steve,informaticien,portfolio,ephec,EPHEC,cybersecurity,IT" name="keywords">
+    <meta content="Steve Henriquet" name="author">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
@@ -18,14 +21,14 @@
     /* Remove margins from "page content" on small screens */
     @media only screen and (max-width: 600px) {#main {margin-left: 0}}
     </style>
-    <script src="js/index.js"></script>
+    <script src="js/index.js" defer></script>
   </head>
 <body class="w3-white">
 
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
   <!-- Avatar image in top left corner -->
-  <img src="img/logo.png" style="width:100%">
+  <img src="img/logo.png" alt="logo" style="width:100%">
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">
     <i class="fa fa-home w3-xxlarge"></i>
     <p>HOME</p>
@@ -60,12 +63,66 @@
   <header class="w3-container w3-padding-32 w3-center w3-white" id="home">
     <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Steve Henriquet.</h1>
     <p>Ingénieur en Sécurité réseau.</p>
-    <img src="img/about.jpg" alt="boy" class="w3-image" id="imgAbout">
+    <img src="img/about.jpg" alt="Photo de Steve Henriquet" class="w3-image" id="imgAbout">
   </header>
 
   <!-- A Propos Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-light-blue">My Name</h2>
+    <h2 class="w3-text-light-blue">A Propos</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <table class="w3-table">
+      <tr>
+        <td>Age</td>
+        <td id="age"></td>
+      </tr>
+      <tr>
+        <td>Permis de conduire</td>
+        <td>B</td>
+      </tr>
+      <tr>
+        <td>Langues</td>
+        <td>Français, Anglais</td>
+      </tr>
+      <tr>
+        <td>Compétences</td>
+        <td>
+          Automation (Ansible, Jenkins, Jinja2, Python)<br>
+          Pulse Secure<br>
+          Broadcom (ProxySG, CAS)<br>
+          Netskope<br>
+          Splunk<br>
+          FireEye<br>
+          Algosec<br>
+          Développement Web<br>
+          Technologie Cisco (router, switch, Ironport)<br>
+        </td>
+      </tr>
+      <tr>
+        <td>Outils</td>
+        <td>
+          Jira, BitBucket, Confluence<br>
+          Jenkins, Ansible<br>
+          Terraform, HashiCorp<br>
+          Visual Studio Code, Vim<br>
+          Wireshark, Tshark<br>
+          Ettercap, Nmap, Metasploit, Burp, Nessus<br>
+          Docker, Docker compose<br>
+          Prometheus, Grafana<br>
+          JetBrains<br>  
+          GitHub, GitLab
+        </td>
+      </tr>
+    </table>
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> <a href="data/CurriculumVitae-SteveHenriquet_fr.pdf"
+      target="_blank">CV En Français</a>
+    </button>
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> <a href="data/CurriculumVitae-SteveHenriquet_en.pdf"
+      target="_blank">CV En Anglais</a>
+    </button>
+    <br>
+    <h2 class="w3-text-light-blue">Projet professionel</h2>
     <hr style="width:200px" class="w3-opacity">
     <p>      
       De nature curieuse, je me suis toujours intéressé à de nombreux domaines et j'ai toujours cherché à être le plus
@@ -83,60 +140,9 @@
       Enfin, j'ai eu la chance de partir pendant 5 mois en cyclotourisme à travers l'Espagne, le Portugal et la France 
       voyage riche en expérience et en rencontre qui m'a beaucoup appris.
     </p>
-    <h3 class="w3-padding-16 w3-text-light-blue">My Skills</h3>
-    <table class="align-content-center">
-      <tr>
-        <td>Age</td>
-        <td id="age"></td>
-      </tr>
-      <tr>
-        <td>Permis de conduire</td>
-        <td>B</td>
-      </tr>
-      <tr>
-        <td>Langues</td>
-        <td>Français, Anglais</td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-      </tr>
-    </table>
-    <p class="w3-wide">Test</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
-    </div>
-    <p class="w3-wide">Web Design</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
-    </div>
-    <p class="w3-wide">Photoshop</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
-    </div><br>
-    
-    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">11+</span><br>
-        Partners
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">55+</span><br>
-        Projects Done
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">89+</span><br>
-        Happy Clients
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">150+</span><br>
-        Meetings
-      </div>
-    </div>
 
-    <button class="w3-button w3-light-grey w3-padding-large w3-section">
-      <i class="fa fa-download"></i> Download Resume
-    </button>
+    <h3 class="w3-padding-16 w3-text-light-blue">Portfolio</h3>
+    <hr style="width:200px" class="w3-opacity">
     
     <!-- Grid for pricing tables -->
     <h3 class="w3-padding-16 w3-text-light-blue">My Price</h3>

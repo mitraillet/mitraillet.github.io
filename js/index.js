@@ -10,33 +10,35 @@ function getAge() {
   return age;
 }
 
-let proofs;
-$.getJSON("data/proofs.json", function(data){
-  proofs = data;
-});
+// let proofs;
+// $.getJSON("data/proofs.json", function(data){
+//   proofs = data;
+// });
 
-$('#age').html(getAge());
+let age = document.getElementById('age')
+let ageValue = document.createTextNode(getAge())
+age.appendChild(ageValue) 
 
-function showProof(name) {
-  let i = 0;
-  let isCheating = true;
-  for (let property in proofs) {
-    if (property === name) {
-      isCheating = false;
-      $('#modalTitle').html(proofs[name]["title"]);
-      $('#modalImg').attr({
-        'src': proofs[name]["src"],
-        'alt': proofs[name]["alt"]
-      });
-    }
-    i++;
-  }
+// function showProof(name) {
+//   let i = 0;
+//   let isCheating = true;
+//   for (let property in proofs) {
+//     if (property === name) {
+//       isCheating = false;
+//       document.getElementById('modalTitle').html(proofs[name]["title"]);
+//       document.getElementById('modalImg').attr({
+//         'src': proofs[name]["src"],
+//         'alt': proofs[name]["alt"]
+//       });
+//     }
+//     i++;
+//   }
 
-  if(isCheating){
-    $('#modalTitle').html("<div class=\"alert alert-danger\" role=\"alert\"> Stop trying to change my site !!!! </div>");
-    $('#modalImg').attr({
-      'src': '',
-      'alt': 'Image inexistante'
-    });
-  }
-}
+//   if(isCheating){
+//     document.getElementById('modalTitle').html("<div class=\"alert alert-danger\" role=\"alert\"> Stop trying to change my site !!!! </div>");
+//     document.getElementById('modalImg').attr({
+//       'src': '',
+//       'alt': 'Image inexistante'
+//     });
+//   }
+// }
