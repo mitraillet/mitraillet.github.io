@@ -3,7 +3,10 @@
     "title": "Formation C#",
     "description": "Une semaine à apprendre les bases du C#",
     "image": "img/cSharp.png",
-    "categories": "Développement"
+    "categories": [
+      "Développement", 
+      "Soft skills"
+    ]
   },
   {
     "title": "be.wan",
