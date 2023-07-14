@@ -64,14 +64,14 @@ fetch('https://raw.githubusercontent.com/mitraillet/mitraillet.github.io/Pure-HT
 });
 
 const createPost = (postData) => {
-  const { title, description, image, categories } = postData;
+  const { title, description, image} = postData;
   const post = document.createElement("div");
   post.className = "post";
   post.innerHTML = `
       <div class="post-preview view effect">
         <img class="post-image" src="${image}">
         <div class="mask">
-        <h4>${title}</h4>
+        <h4>${title}</h4><br>
         <a href="#" class="info" title="Full Image">"${description}"</a></div>
       </div>
   `;
