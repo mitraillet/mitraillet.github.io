@@ -9,12 +9,22 @@
     ]
   },
   {
-    "title": "How to Build A JavaScript Countdown Timer",
-    "link": "https://webdesign.tutsplus.com/tutorials/how-to-build-a-javascript-countdown-timer--cms-93144",
-    "image": "https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/93144/preview_image/timer.png",
+    "title": "How to Create a Sortable HTML Table with JavaScript",
+    "link": "https://webdesign.tutsplus.com/tutorials/how-to-create-a-sortable-html-table-with-javascript--cms-92993",
+    "image": "https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/92993/preview_image/table.png",
     "categories": [
       "JavaScript",
-      "Timer"
+      "Sorting",
+      "Data Structures"
+    ]
+  },
+  {
+    "title": "How to Implement a “Load More” Button With Vanilla JavaScript",
+    "link": "https://webdesign.tutsplus.com/tutorials/how-to-implement-a-load-more-button-with-vanilla-javascript--cms-42080",
+    "image": "https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/42080/preview_image/load_more.png",
+    "categories": [
+      "JavaScript",
+      "UX"
     ]
   }
 ]
