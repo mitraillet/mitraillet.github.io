@@ -1,5 +1,34 @@
 [
   {
+    "title": "Erasmus en sécurité de l'information",
+    "description": "Erasmus à l'HEIG-VD, Yverdon-les-Bains, Suisse",
+    "image": "img/SuisseFlag.png",
+    "categories": [
+      "Cybersécurité",
+      "Réseaux",
+      "Développement",
+      "Soft skills"
+    ]
+  },
+  {
+    "title": "Audit de sécurité technique",
+    "description": "Audit de sécurité technique effectué chez Objectis, Industrial Software Experts",
+    "image": "img/Objectis.png",
+    "categories": [
+      "Cybersécurité",
+      "Soft skills"
+    ]
+  },
+  {
+    "title": "Network & Infrastructure Challenge STIB - MIVB",
+    "description": "Premier concours en réseau et infrastructure en Belgique.",
+    "image": "img/StibMvibLittle.png",
+    "categories": [
+      "Réseaux",
+      "Soft skills"
+    ]
+  },
+  {
     "title": "Formation C#",
     "description": "Une semaine à apprendre les bases du C#",
     "image": "img/cSharp.png",
@@ -59,35 +88,6 @@
     "image": "img/blackalps-v5-mountain-black.png",
     "categories": [
       "Cybersécurité",
-      "Réseaux",
-      "Soft skills"
-    ]
-  },
-  {
-    "title": "Erasmus en sécurité de l'information",
-    "description": "Erasmus à l'HEIG-VD, Yverdon-les-Bains, Suisse",
-    "image": "img/SuisseFlag.png",
-    "categories": [
-      "Cybersécurité",
-      "Réseaux",
-      "Développement",
-      "Soft skills"
-    ]
-  },
-  {
-    "title": "Audit de sécurité technique",
-    "description": "Audit de sécurité technique effectué chez Objectis, Industrial Software Experts",
-    "image": "img/Objectis.png",
-    "categories": [
-      "Cybersécurité",
-      "Soft skills"
-    ]
-  },
-  {
-    "title": "Network & Infrastructure Challenge STIB - MIVB",
-    "description": "Premier concours en réseau et infrastructure en Belgique.",
-    "image": "img/StibMvibLittle.png",
-    "categories": [
       "Réseaux",
       "Soft skills"
     ]

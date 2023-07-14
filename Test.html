@@ -35,11 +35,11 @@
   </a>
   <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-white">
     <i class="fa fa-user w3-xxlarge"></i>
-    <p>A Propos</p>
+    <p>A PROPOS</p>
   </a>
-  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-white">
+  <a href="#portfolio" class="w3-bar-item w3-button w3-padding-large w3-hover-white">
     <i class="fa fa-eye w3-xxlarge"></i>
-    <p>PHOTOS</p>
+    <p>PORTFOLIO</p>
   </a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-white">
     <i class="fa fa-envelope w3-xxlarge"></i>
@@ -51,8 +51,8 @@
 <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
   <div class="w3-bar w3-white w3-opacity w3-hover-opacity-off w3-center w3-small">
     <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">A Propos</a>
-    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">A PROPOS</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" style="width:25% !important">PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
   </div>
 </div>
@@ -140,11 +140,11 @@
       Enfin, j'ai eu la chance de partir pendant 5 mois en cyclotourisme à travers l'Espagne, le Portugal et la France 
       voyage riche en expérience et en rencontre qui m'a beaucoup appris.
     </p>
-
+    <!-- 
     <h3 class="w3-padding-16 w3-text-light-blue">Portfolio</h3>
     <hr style="width:200px" class="w3-opacity">
     
-    <!-- Grid for pricing tables -->
+    <!-- Grid for pricing tables
     <h3 class="w3-padding-16 w3-text-light-blue">My Price</h3>
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half w3-margin-bottom">
@@ -183,7 +183,7 @@
     <!-- End Grid/Pricing tables -->
     </div>
     
-    <!-- Testimonials -->
+    <!-- Testimonials
     <h3 class="w3-padding-24 w3-text-light-blue">My Reputation</h3>  
     <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
     <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
@@ -196,11 +196,32 @@
   </div>
   
   <!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-content" id="photos">
-    <h2 class="w3-text-light-blue">My Photos</h2>
-    <hr style="width:200px" class="w3-opacity">
+  <!-- USe https://webdesign.tutsplus.com/how-to-filter-data-on-a-webpage-with-javascript--cms-93330t -->
 
-    <!-- Grid for photos -->
+  
+  
+  <div class="w3-padding-64 w3-content" id="portfolio">
+    <h2 class="w3-text-light-blue">Portfolio</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <div id="filterSelection" class="w3-center">
+      <button class="btn w3-text-blue-grey w3-margin w3-large active" onclick="filterSelection('all')"> Tout</button>
+      <button class="btn w3-text-blue-grey w3-margin w3-large" onclick="filterSelection('cars')"> Développement</button>
+      <button class="btn w3-text-blue-grey w3-margin w3-large" onclick="filterSelection('animals')"> Soft Skill</button>
+      <button class="btn w3-text-blue-grey w3-margin w3-large" onclick="filterSelection('fruits')"> Réseaux</button>
+      <button class="btn w3-text-blue-grey w3-margin w3-large" onclick="filterSelection('colors')"> Sécurité Informatique</button>
+      <button class="btn w3-text-blue-grey w3-margin w3-large" onclick="filterSelection('colors')"> Autres</button>
+    </div>
+    <div class="profile__posts">
+      <div class="filter-container">
+  
+      </div>
+      <div class="card-header">
+        <div class="card-header__title">Tutorials</div>
+      </div>
+      <div class="posts-container">
+      </div>
+    </div>
+    <!-- Grid for portfolio -->
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half">
         <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
