@@ -1,5 +1,27 @@
 [
   {
+    "title": "Network Security Engineer",
+    "description": "Travail chez Swift pendant 3 ans",
+    "image": "img/Swift.png",
+    "categories": [
+      "Cybersécurité",
+      "Réseaux",
+      "DevOps",
+      "Développement",
+      "Soft skills"
+    ]
+  },
+  {
+    "title": "Stage Escaux",
+    "description": "Stage chez Escaux effectué lors de mes études",
+    "image": "img/Escaux.png",
+    "categories": [
+      "DevOps",
+      "Développement",
+      "Soft skills"
+    ]
+  },
+  {
     "title": "Erasmus en sécurité de l'information",
     "description": "Erasmus à l'HEIG-VD, Yverdon-les-Bains, Suisse",
     "image": "img/SuisseFlag.png",
