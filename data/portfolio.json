@@ -1,7 +1,7 @@
-[
-  {
+{
+  "SWIFT" : [{
     "title": "Network Security Engineer",
-    "description": "Travail chez Swift pendant 3 ans",
+    "shortDescription": "Travail chez Swift pendant 3 ans",
     "image": "img/Swift.png",
     "categories": [
       "Cybersécurité",
@@ -10,10 +10,10 @@
       "Développement",
       "Soft skills"
     ]
-  },
-  {
+  }],
+  "Escaux" : {
     "title": "Stage Escaux",
-    "description": "Stage chez Escaux effectué lors de mes études",
+    "shortDescription": "Stage chez Escaux effectué lors de mes études",
     "image": "img/Escaux.png",
     "categories": [
       "DevOps",
@@ -21,9 +21,9 @@
       "Soft skills"
     ]
   },
-  {
+  "Erasmus" : {
     "title": "Erasmus en sécurité de l'information",
-    "description": "Erasmus à l'HEIG-VD, Yverdon-les-Bains, Suisse",
+    "shortDescription": "Erasmus à l'HEIG-VD, Yverdon-les-Bains, Suisse",
     "image": "img/SuisseFlag.png",
     "categories": [
       "Cybersécurité",
@@ -32,81 +32,81 @@
       "Soft skills"
     ]
   },
-  {
+  "Audit" : {
     "title": "Audit de sécurité technique",
-    "description": "Audit de sécurité technique effectué chez Objectis, Industrial Software Experts",
+    "shortDescription": "Audit de sécurité technique effectué chez Objectis, Industrial Software Experts",
     "image": "img/Objectis.png",
     "categories": [
       "Cybersécurité",
       "Soft skills"
     ]
   },
-  {
+  "STIBChallenge" : {
     "title": "Network & Infrastructure Challenge STIB - MIVB",
-    "description": "Premier concours en réseau et infrastructure en Belgique.",
+    "shortDescription": "Premier concours en réseau et infrastructure en Belgique.",
     "image": "img/StibMvibLittle.png",
     "categories": [
       "Réseaux",
       "Soft skills"
     ]
   },
-  {
+  "C#Formation" : {
     "title": "Formation C#",
-    "description": "Une semaine à apprendre les bases du C#",
+    "shortDescription": "Une semaine à apprendre les bases du C#",
     "image": "img/cSharp.png",
     "categories": [
       "Développement", 
       "Soft skills"
     ]
   },
-  {
+  "VisitBeWan" : {
     "title": "be.wan",
-    "description": "Visite d'une entreprise",
+    "shortDescription": "Visite d'une entreprise",
     "image": "img/bewanIcon.png",
     "categories": [
       "Soft skills",
       "Autres"
     ]
   },
-  {
+  "Tutorat" : {
     "title": "Tutorat",
-    "description": "Mon expérience en tant que tuteur",
+    "shortDescription": "Mon expérience en tant que tuteur",
     "image": "img/tutoring.jpg",
     "categories": [
       "Soft skills",
       "Autres"
     ]
   },
-  {
+  "SIEP" : {
     "title": "SIEP & JPO",
-    "description": "Présentation de l'EPHEC et des études en informatique",
+    "shortDescription": "Présentation de l'EPHEC et des études en informatique",
     "image": "img/JPOAndSIEP.jpg",
     "categories": [
       "Soft skills",
       "Autres"
     ]
   },
-  {
+  "HackJam" : {
     "title": "Hackjam",
-    "description": "Hackathon sur une plus courte période",
+    "shortDescription": "Hackathon sur une plus courte période",
     "image": "img/hackages.jpg",
     "categories": [
       "Développement",
       "Soft skills"
     ]
   },
-  {
+  "SDCisco" : {
     "title": "Cisco Student Day",
-    "description": "Présentation de Cisco Incubator",
+    "shortDescription": "Présentation de Cisco Incubator",
     "image": "img/ciscoIncubatorLogo.png",
     "categories": [
       "Réseaux",
       "Soft skills"
     ]
   },
-  {
+  "BA2018" : {
     "title": "Black Alps 2018",
-    "description": "Assister à des conférences en cybersécurité",
+    "shortDescription": "Assister à des conférences en cybersécurité",
     "image": "img/blackalps-v5-mountain-black.png",
     "categories": [
       "Cybersécurité",
@@ -114,18 +114,18 @@
       "Soft skills"
     ]
   },
-  {
+  "Chill'Out" : {
     "title": "Chill'Out",
-    "description": "Bénévolat",
+    "shortDescription": "Bénévolat",
     "image": "img/Chill_Out_DEF_noir.png",
     "categories": [
       "Autres",
       "Soft skills"
     ]
   },
-  {
+  "FunMOOC" : {
     "title": "Fun MOOC",
-    "description": "Ensemble des formations MOOC",
+    "shortDescription": "Ensemble des formations MOOC",
     "image": "img/FunMooc.png",
     "categories": [
       "Réseaux",
@@ -134,4 +134,4 @@
       "Soft skills"
     ]
   }
-]
+}
