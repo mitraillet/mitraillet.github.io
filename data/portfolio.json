@@ -1,5 +1,5 @@
 {
-  "SWIFT" : [{
+  "SWIFT" : {
     "title": "Network Security Engineer",
     "shortDescription": "Travail chez Swift pendant 3 ans",
     "image": "img/Swift.png",
@@ -10,7 +10,7 @@
       "Développement",
       "Soft skills"
     ]
-  }],
+  },
   "Escaux" : {
     "title": "Stage Escaux",
     "shortDescription": "Stage chez Escaux effectué lors de mes études",
