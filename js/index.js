@@ -10,44 +10,15 @@ function getAge() {
   return age;
 }
 
-// let proofs;
-// $.getJSON("data/proofs.json", function(data){
-//   proofs = data;
-// });
-
 let age = document.getElementById('age')
 let ageValue = document.createTextNode(getAge())
 age.appendChild(ageValue) 
-
-// function showProof(name) {
-//   let i = 0;
-//   let isCheating = true;
-//   for (let property in proofs) {
-//     if (property === name) {
-//       isCheating = false;
-//       document.getElementById('modalTitle').html(proofs[name]["title"]);
-//       document.getElementById('modalImg').attr({
-//         'src': proofs[name]["src"],
-//         'alt': proofs[name]["alt"]
-//       });
-//     }
-//     i++;
-//   }
-
-//   if(isCheating){
-//     document.getElementById('modalTitle').html("<div class=\"alert alert-danger\" role=\"alert\"> Stop trying to change my site !!!! </div>");
-//     document.getElementById('modalImg').attr({
-//       'src': '',
-//       'alt': 'Image inexistante'
-//     });
-//   }
-// }
-
 
 let postsData = "";
 let filterData = "";
 const postsContainer = document.querySelector(".posts-container");
 const filterContainer = document.querySelector(".filter-container");
+const modalContainer = document.querySelector(".modal");
 
 fetch('https://raw.githubusercontent.com/mitraillet/mitraillet.github.io/Pure-HTML-CSS/data/portfolio.json'
 ).then(async (response) => {
@@ -64,15 +35,15 @@ fetch('https://raw.githubusercontent.com/mitraillet/mitraillet.github.io/Pure-HT
 });
 
 const createPost = (postData) => {
-  const { title, description, image} = postData;
+  const { title, shortDescription, icon} = postData;
   const post = document.createElement("div");
   post.className = "post";
   post.innerHTML = `
-      <div class="post-preview view effect">
-        <img class="post-image" src="${image}">
+      <div class="post-preview view effect" onclick="modalClick('${title}')">
+        <img class="post-image" src="${icon}">
         <div class="mask">
         <h4>${title}</h4><br>
-        <a href="#" class="info" title="Full Image">"${description}"</a></div>
+        <p class="info" title="Full Image">"${shortDescription}"</p></div>
       </div>
   `;
 
@@ -128,3 +99,65 @@ const resetPosts = () => {
   postsContainer.innerHTML = "";
   postsData.map((post) => createPost(post));
 }
+
+// Get the modal
+let modal = document.getElementById("myModal");
+
+// Get the <span> element that closes the modal
+let span = document.getElementsByClassName("close")[0];
+
+function modalClick(t) {
+  modal.style.display = "block";
+  const { title, description, image, proof} = postsData.find(e => e.title === t);
+  const post = document.createElement("div");
+  post.className = "modal-content";
+  post.innerHTML = `
+    <div class="modal-header">
+      <span class="close" onclick="modal.style.display = 'none';">&times;</span>
+      <h2>${title}</h2>
+    </div>
+    <div class="modal-body">
+      <img class="modal-image" src="${image}">
+      <p>${description}</p>
+    </div>
+    <div class="modal-footer">
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> <a href="${proof}"
+      target="_blank">Lien vers la preuve</a>
+    </button>
+    </div>
+  `;
+  modalContainer.innerHTML = "";
+  modalContainer.append(post);
+}
+
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+// function showProof(name) {
+//   let i = 0;
+//   let isCheating = true;
+//   for (let property in proofs) {
+//     if (property === name) {
+//       isCheating = false;
+//       document.getElementById('modalTitle').html(proofs[name]["title"]);
+//       document.getElementById('modalImg').attr({
+//         'src': proofs[name]["src"],
+//         'alt': proofs[name]["alt"]
+//       });
+//     }
+//     i++;
+//   }
+//   if(isCheating){
+//     document.getElementById('modalTitle').html("<div class=\"alert alert-danger\" role=\"alert\"> Stop trying to change my site !!!! </div>");
+//     document.getElementById('modalImg').attr({
+//       'src': '',
+//       'alt': 'Image inexistante'
+//     });
+//   }
+// }

@@ -2,7 +2,10 @@
   {
     "title": "Network Security Engineer",
     "shortDescription": "Travail chez Swift pendant 3 ans",
+    "description": "Primary technical contact: VPN, serveur Proxy et Mail.Mise en place d'automatisation pour maintenir et déployer des listes d'URL à travers l'infrastructure proxy et le pac file. Scripting afin d'effectuer des tâches basiques sur le VPN et FireEye. Support de 2ème et 3ème ligne pour gérer incidents et problèmes",
+    "icon": "img/Swift.png",
     "image": "img/Swift.png",
+    "proof": "https://www.linkedin.com/in/henriquetsteve/#experience",
     "categories": [
       "Cybersécurité",
       "Réseaux",
@@ -14,7 +17,10 @@
   {
     "title": "Stage Escaux",
     "shortDescription": "Stage chez Escaux effectué lors de mes études",
+    "description": "Durant mes étude en Belgique, j'ai eu l'opportunité d'effectuer un stage au sein de Escaux, une PME fournissant un service VoIP. Ce stage m'a permis d'acquérir une première expérience professionnel.",
+    "icon": "img/Escaux.png",
     "image": "img/Escaux.png",
+    "proof": "https://www.linkedin.com/in/henriquetsteve/#experience",
     "categories": [
       "DevOps",
       "Développement",
@@ -24,7 +30,10 @@
   {
     "title": "Erasmus en Cybersécurité",
     "shortDescription": "Erasmus à l'HEIG-VD, Yverdon-les-Bains, Suisse",
-    "image": "img/SuisseFlag.png",
+    "description": "Durant un semestre, j'ai effectué un Erasmus en Suisse, à l'HEIG-VD située à Yverdon-les-Bains, où j'ai suivi les cours de troisième année en Sécurisation de l'information. <br> Cet échange fut une sortie totale de ma zone de confort, mais mon caractère est tel que je me suis très vite adapté et ai pu en tirer de nombreux bénéfices. <br> L'expérience la plus marquante de ce séjour et la plus instructive fut de devoir trouver des groupes pour les travaux. J'ai remarqué que l'on travaille souvent avec les mêmes personnes en groupes, que ce soit par facilité ou par affinités, et cela a pour conséquence de connaître la méthode de travail des autres. Mais, en partant en Erasmus, on ne connait personne et par conséquent, je me suis retrouvé à travailler avec les étudiants qui voulaient bien de moi. Cela m'a forcé à m'adapter et à jongler entre différentes méthodes de travail en fonction des groupes. <br> J'ai eu le sentiment d'avoir dû fournir un travail plus conséquent que durant mes études en Belgique à cause des changements d'environnement et surtout des méthodes d'enseignement différentes. En effet, en Suisse, l'évaluation continue est de mise, ce qui nous oblige à nous organiser pour arriver à suivre le rythme entres les interrogations et les rendus de projet.",
+    "icon": "img/SuisseFlag.png",
+    "image": "img/Heig-vd.jpg",
+    "proof": "https://www.linkedin.com/in/henriquetsteve/#education",
     "categories": [
       "Cybersécurité",
       "Réseaux",
@@ -35,7 +44,10 @@
   {
     "title": "Audit de sécurité technique",
     "shortDescription": "Audit de sécurité technique effectué chez Objectis, Industrial Software Experts",
-    "image": "img/Objectis.png",
+    "description": "Dans le cadre d'un projet de cours , j'ai effectué un Audit de Sécurité technique(Pentest) de l'infrastructure réseau de la société Objectis à Yverdon-les-bains, Suisse, en collaboration avec mon collègue Mr Walid Koubaa. <br> Ce projet m'a permis d'effectuer une évaluation de la sécurité de l'infrastructure IT de cette entreprise et m'a aidé à comprendre comment réaliser un rapport d'analyse sécuritaire complet destiné au client et répondant à des exigences précises. <br> Durant les deux mois du projet, nous avons eu l'occasion d'effectuer un travail d'Ingénieur en Sécurité Informatique en conditions réelles, sous la supervision de Mr Fréderic Rayroux (Head of Instruments) et Mr Christopher Bouzas (COO). <br> Ce test d'intrusion fait l'objet d'une clause de confidentialité, nous empêchant, mon collègue et moi-même, de communiquer toute information récupérée ou toute faille décelée au sein d'Objectis.",
+    "icon": "img/Objectis.png",
+    "image": "img/Objectis.jpg",
+    "proof": "https://www.linkedin.com/in/henriquetsteve/#projects",
     "categories": [
       "Cybersécurité",
       "Soft skills"
@@ -44,7 +56,10 @@
   {
     "title": "Network & Infrastructure Challenge STIB - MIVB",
     "shortDescription": "Premier concours en réseau et infrastructure en Belgique.",
-    "image": "img/StibMvibLittle.png",
+    "description": "J'ai toujours été intéressé par le réseau et, quand le chef de département de technologie de l'informatique à l'EPHEC, Mme Vroman, nous a parlé de ce <a href=\"https://editx.eu/it-challenge/network-infrastructure-challenge-stib-mivb\">challenge</a>, j'ai directement décidé d'y participer. Par chance, j'ai eu l'occasion d'être repris pour participer à la finale qui se déroulait à Bruxelles. <br> Les questions de ce challenge, aussi bien pour la partie en ligne que pour la partie en finale, étaient relativement complexes. En effet, étudiants et professionnels participant au challenge faisaient face aux mêmes questions, m'empêchant de répondre à certaines questions, trop complexes par rapport à mon niveau. Cependant, à la fin de la finale, nous avons eu accès aux réponses, nous permettant de nous rendre compte de nos erreurs et dans apprendre plus à ce sujet. <br> Je n'ai malheureusement pas atteint le podium, mais j'ai eu une nouvelle occasion de discuter avec des étudiants d'autres écoles/universités et avec des professionnels. Je trouve toujours ce genre d'opportunités très instructif étant donné que l'on y apprend davantage sur les compétences recherchées ainsi que sur les aptitudes nécessaires pour des entretiens officiels. <br>",
+    "icon": "img/StibMvibLittle.png",
+    "image": "img/StibGroup.jpg",
+    "proof": "img/StibMvibProof.png",
     "categories": [
       "Réseaux",
       "Soft skills"
@@ -53,7 +68,10 @@
   {
     "title": "Formation C#",
     "shortDescription": "Une semaine à apprendre les bases du C#",
-    "image": "img/cSharp.png",
+    "description": "Grâce à l'EPHEC, j'ai pu suivre une formation sur le langage de programmation C# pendant une semaine au Centre Technofutur situé à Gosselies. Au cours de cette formation, nous avons pu apprendre les bases du C# ainsi que ses spécificités par rapport à d'autres langages de programmation orientés objet, tels que le langage Java. <br> Dans le paradigme de programmation orienté objet, on retrouve de nombreux langages de programmation. L'existence de ces différents langages se justifient par leurs spécificités. En apprenant un nouveau langage lors de cette formation, j'en ai également découvert les spécificités et donc l'intérêt propre. <br> Cela m'a donc permis d'enrichir mes connaissances en programmation. Lors d'un développement d'une solution logicielle, cela me permettrait de choisir le langage le plus approprié.",
+    "icon": "img/cSharp.png",
+    "image": "img/cSharp1.jpg",
+    "proof": "img/cSharpProof.jpg",
     "categories": [
       "Développement", 
       "Soft skills"
@@ -62,7 +80,10 @@
   {
     "title": "be.wan",
     "shortDescription": "Visite d'une entreprise",
-    "image": "img/bewanIcon.png",
+    "description": "En collaboration avec Agoria, l'EPHEC a organisé une matinée de visite à l'entreprise be.wan. Cette société est une PME qui fournit un ERP modulable suivant les besoins de leurs clients, des particuliers, des petites et parfois moyennes entreprises. Lors de la présentation, nous avons eu la possibilité de voir une de leurs applications et j'ai trouvé très intéressante la modularité de leur solution pour fournir un service personnalisé sans devoir en reviser l'intégralité. <br> <br> L'un des intervenants nous a aussi fortement poussé à nous intéresser aux nouvelles technologies en nous posant des questions par rapport à une situation type. Cette interaction fut très enrichissante d'un point de vue technique et stimulatrice pour notre curiosité. <br> <br> Rencontrer et discuter avec des professionnels ainsi que visiter des entreprises me permet de mieux me rendre compte du milieu du travail et des différentes opportunités que celui-ci offre. ",
+    "icon": "img/bewanIcon.png",
+    "image": "img/bewan.png",
+    "proof": "img/multiProofs.png",
     "categories": [
       "Soft skills",
       "Autres"
@@ -71,7 +92,10 @@
   {
     "title": "Tutorat",
     "shortDescription": "Mon expérience en tant que tuteur",
-    "image": "img/tutoring.jpg",
+    "description": "Durant 9h, j'ai encadré un étudiant éprouvant des dificultés dans le cours d'infrastructure réseau. Le réseau étant ma matière de prédilection et celle qui m'intéresse le plus, c'est avec engouement que je lui ai réexpliqué les points de matière qu'il avait peu ou mal compris et aussi aider dans les exercices pratiques du cours. Suite à cet encadrement, l'étudiant a très bien réussi le cours de réseau ce que je prend comme une victoire personnelle.<br>Ce genre d'expérience permet d'acquérir de la pédagogie, d'approfondir ses propres connaissances ainsi que de fixer la matière apprise en la retransmettant. J'ai particulièrement apprécié cette expérience. ",
+    "icon": "img/tutoring.jpg",
+    "image": "img/tutoring2.jpg",
+    "proof": "img/tutelageProof.jpg",
     "categories": [
       "Soft skills",
       "Autres"
@@ -80,7 +104,10 @@
   {
     "title": "SIEP & JPO",
     "shortDescription": "Présentation de l'EPHEC et des études en informatique",
-    "image": "img/JPOAndSIEP.jpg",
+    "description": "Durant un après-midi, j'ai représenté l'EPHEC ainsi que ma formation \"Technologie de l'informatique\" au salon du Service d'Information sur les Etudes &amp; les Professions (SIEP) à Namur. Mon rôle était de présenter ma formation à des élèves du secondaire, à des parents ainsi qu'à des étudiants en réorientation. <br> <br> Cette expérience fut très riche en rencontres et m'a sorti de ma zone de confort en m'obligeant à présenter mon école et mes études à des inconnus. La partie la plus dure et intéressante à la fois était d'adapter mon discours en fonction de mon interlocuteur pour lui transmettre un peu de ma passion pour l'informatique et augmenter son intérêt pour la formation. Durant cette journée portes ouvertes, j'ai présenté, avec mon ami et collègue Simon Fauconnier, un Scrabble que nous avions programmé en Java pour un projet de cours. Ayant comme support ce jeu, la présentation des études et des cours se trouvait facilitée contrairement au salon du SIEP où je n'avais pas accès à un tel matériel. <br> <br> Cette expérience a été, tout comme le salon du SIEP, riche et intéressante, m'obligeant à mettre mes compétences en communication à l'épreuve.",
+    "icon": "img/JPOAndSIEP.jpg",
+    "image":"img/JPOsiepSalon.jpg",
+    "proof": "img/SIEPProof.jpg",
     "categories": [
       "Soft skills",
       "Autres"
@@ -89,7 +116,10 @@
   {
     "title": "Hackjam",
     "shortDescription": "Hackathon sur une plus courte période",
-    "image": "img/hackages.jpg",
+    "description": "Le Hackjam est un Hackathon d'une soirée. Celui auquel j'ai participé avait pour but d'implémenter des éléments et des évènements dans une application en ReactNative non terminée. <br> Ce fut la première fois que je participais à un Hackjam et que je découvrais ReactNative. N'ayant aucune connaissance de ce langage, les personnes ayant organisé l'évènement me sont venues en aide et ont pris la peine de m'expliquer, me permettant ainsi d'avancer sur l'implémentation tout en comprenant ce que je faisais. <br> <br> La participation à ce Hackjam fut une bonne expérience. Travailler durant une période déterminée et essayer d'avancer au mieux sur un objectif donné est très enrichissant et m'a donné envie d'essayer de devenir plus polyvalent en programmation.",
+    "icon": "img/hackages.jpg",
+    "image": "img/hackagesLLN.jpg",
+    "proof": "img/multiProofs.jpg",
     "categories": [
       "Développement",
       "Soft skills"
@@ -98,7 +128,10 @@
   {
     "title": "Cisco Student Day",
     "shortDescription": "Présentation de Cisco Incubator",
-    "image": "img/ciscoIncubatorLogo.png",
+    "description": "Les deux intervenants nous ont d'abord parlé de leur implication chez CISCO. Ils font tous les deux partie d'un des technical helpdesks de chez Cisco, ce qui consiste à résoudre des problèmes et optimiser des configurations de réseaux pour leurs clients, des administrateurs de systèmes et réseaux. <br> Ils nous ont ensuite présenté le programme du cisco incubator qui peut se suivre de trois manières : <ol class=\"text-justify\"> <li> en ligne, pour les personnes ne pouvant se déplacer dans les pays comprenant un centre de formation cisco, </li> <li> partiellement en ligne et partiellement en centre de formation, </li> <li> dans le centre de formation de Cracovie, seul centre équipé pour accueillir la formation complète. </li> </ol> Le programme comprend des cours, des évaluations continues ainsi que des avis d'experts et des conseils. <br> Enfin, ils nous ont présenté l'utilisation de scripts Python pour la configuration automatisée de switches et routers. <br> <br> J'étais très intéressé par cette formation mais, partant en Erasmus, je savais que je manquerais de temps pour me concentrer sur celle-ci. Je suis néanmoins certain que sans cet Erasmus, j'aurais suivi cette formation. <br> Toutefois, une telle présentation reste intéressante pour découvrir un peu les entreprises et le monde du travail.",
+    "icon": "img/ciscoIncubatorLogo.png",
+    "image": "img/ciscoIncubatorBan.png",
+    "proof": "img/multiProofs.jpg",
     "categories": [
       "Réseaux",
       "Soft skills"
@@ -107,7 +140,10 @@
   {
     "title": "Black Alps 2018",
     "shortDescription": "Assister à des conférences en cybersécurité",
-    "image": "img/blackalps-v5-mountain-black.png",
+    "description": "Durant mon Erasmus en Suisse, j'ai eu l'opportunité de participer à la BlackAlps, un évènement de deux jours sur la cybersécurité, comprenant des conférences, des ateliers et un Capture The Flag (CTF) comme évènement de clôture. <br><br> Je ne m’étendrai pas sur toutes les conférences auxquelles j’ai assisté (voir ci-dessous), mais plutôt sur mon ressenti face à celles-ci. Certaines de ces conférences étaient agréables à suivre car elles étaient suffisamment vulgarisées pour qu’un néophyte dans le domaine de la cybersécurité puisse comprendre, ce qui les a dès lors rendues très instructives. En revanche, d'autres conférences étaient très techniques et, par manque de connaissance dans les domaines évoqués ainsi que dans certains aspects de sécurité, je n’ai malheureusement pas pu en tirer grand-chose. <br><br> Durant la Blackalps, j’ai également pu participer à un atelier sur un système de monitoring réseau open source. Pour moi, le plus intéressant dans cet atelier fut la discussion que j’ai pu avoir à la suite de l’activité avec les deux intervenants. J’ai vu cet événement comme une belle opportunité pour rencontrer et échanger avec des professionnels. <br><br> Un CTF est un challenge composé de plusieurs épreuves sur les différents aspects de la cybersécurité (cryptographie, programmation, réseau, …), mettant à l’épreuve les connaissances d’une équipe dans ces différents domaines et l’utilisation des outils associés pour arriver à récupérer l’information cachée. Ce fut le premier CTF auquel je participais, n’ayant fait jusque-là que quelques challenges du célèbre Root-me. Grâce à mon équipe, composée de membres de ma classe, j’ai appris comment utiliser certains outils de cybersécurité ainsi que la manière de procéder pour exploiter certaines failles. Pour les personnes intéressées, voici un lien reprenant toutes les conférences qui ont eu lieu lors de la Blackalps, ainsi que les vidéos de certaines conférences : https://www.blackalps.ch/ba-18/talks.php <br><br> J’ai eu l’opportunité d’assister aux conférences suivantes : <br> “Let’s create a redteam mission” par Alex Kouzmine <br> “Bypass Android Security Mechanisms using Custom Android” par Seonghyeon Song (FSI, Financial Security Institute) <br> “Challenges and Opportunities in Cloud Security” par Scott Pipe <br> “Group123 : Korea In The Crosshairs” par Paul Rascagneres (Cisco Talos) <br> “How to provide security fixes in a high constraint ecosystem? Practical examples with the Jenkins project.” par Wadeck Follonier (CloudBees SA) <br> “Application Level DDoS, the Rise of CDNs and the End of the Free Internet” par Christian Folini <br> “Cyber Defence Exercise Locked Shields &amp; Cyber Exercises in the Financial Sector” par Peter Hladky (Credit Suisse) <br> “Special event on Medical devices “ par Pierre-François Regamey, Stephan Proennecke et Kim Rochat <br> “Cyber Defence Exercise Locked Shields &amp; Cyber Exercises in the Financial Sector” par Peter Hladky <br> Et à un atelier : <br> “Introductionto Bro Network Security Monitor” by Eva Szilagyi &amp; David Szili (Alzette Information Security)",
+    "icon": "img/blackalps-v5-mountain-black.png",
+    "image": "img/BlackAlpsGroupe.jpg",
+    "proof": "img/BlackAlpsProof.jpg",
     "categories": [
       "Cybersécurité",
       "Réseaux",
@@ -117,7 +153,10 @@
   {
     "title": "Chill Out",
     "shortDescription": "Bénévolat",
-    "image": "img/Chill_Out_DEF_noir.png",
+    "description": "Durant mon Erasmus en Suisse, j’ai pris connaissance de l’existence d’une association étudiante, le Chill’Out. Le projet de cette association est simplement de mettre à disposition au sein de la haute école, un local pour des activités diverses, avec également des boissons, des fauteuils, des babyfoots ainsi que d’autres jeux de sociétés. Le Chill’Out organisait aussi des soirées de temps à autres, telles qu'une soirée d’accueil pour les Erasmus, une soirée Halloween ou encore un événement pour Noël. L’équipe de bénévoles contenait plusieurs membres de ma classe, ce qui m’a permis de rapidement m’intégrer au sein de l’équipe ainsi que dans la classe. <br><br> Le bénévolat m’a toujours intéressé de par son aspect d’aide envers les gens, de détente dans un domaine différent de celui de nos études ou encore parce que cela permet d’avoir une activité en accords avec ce que l’on aime et d’établir du lien social. Selon moi, les rencontres sont ce qui nous fait le plus évoluer et murir.",
+    "icon": "img/Chill_Out_DEF_noir.png",
+    "image": "img/ChillOutPhoto.jpg",
+    "proof": "img/ChillOutProof.jpg",
     "categories": [
       "Autres",
       "Soft skills"
@@ -126,7 +165,10 @@
   {
     "title": "Fun MOOC",
     "shortDescription": "Ensemble des formations MOOC",
-    "image": "img/FunMooc.png",
+    "description": "J’ai effectué les formations MOOC “Les réseaux d’accès optiques FTTH “(Fiber to the Home - Fibre jusqu'à l'abonné) ainsi que la formation “Les bonnes pratiques de veille technologique”. Ces deux formations touchent à l’informatique de manière plus large, mais, étant quelqu’un de curieux, je trouvais intéressant de m’informer par rapport à ces deux sujets. <br><br> La formation sur le FTTH était un sujet assez pratique et technique et ne touchait que peu à l’aspect réseau et aux avantages apportés par la fibre pour ce dernier. Cependant, en apprendre plus sur cet aspect permet de mieux comprendre les avantages d’utiliser de la fibre au lieu du cuivre et surtout de mieux comprendre comment implémenter celle-ci dans un système en cas de besoin. <br><br> La formation sur la veille technologique, quant à elle, se focalisait davantage sur l’utilisation d’internet et des différentes technologies s’y trouvant pour se maintenir informer d’un sujet précis, aussi bien sur un plan personnel qu’au sein d’une entreprise. Je trouve vital dans notre métier d’informaticien, qu’importe notre domaine, de se tenir informer car l’informatique est en constante évolution et des changements importants peuvent s’effectuer très rapidement.",
+    "icon": "img/FunMooc.png",
+    "image": "img/FunMoocTraining.jpg",
+    "proof": "img/FunMoocProof.png",
     "categories": [
       "Réseaux",
       "Développement",
