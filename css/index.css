@@ -1,0 +1,212 @@
+#imgAbout {
+  border-radius: 50%;
+}
+
+.pointerHover {
+  text-align: center;
+}
+.pointerHover:hover {
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #fff !important;
+  border-color:#87CEEB!important;
+  border-style: solid none solid none;
+}
+
+.btn:hover, .is-active {
+  background-color: #87CEEB !important;
+}
+
+.profile__posts {
+  text-align: center;
+}
+
+.view {
+  width: 300px;
+  max-height: 100%;
+  min-height: 217.5px;
+  margin: 10px;
+  float: left;
+  border: 5px solid #fff;
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 5px #aaa;
+  cursor: pointer;
+}
+
+.view .mask, .view .content {
+  width: 300px;
+  max-height: 100%;
+  min-height: 217.5px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.view img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: auto;
+  max-width: 100%;
+  transition: all 0.3s;
+}
+
+.view:hover img {
+  animation: fading-in 2s;
+}
+@keyframes fading-in {
+  0%{opacity:0}
+  100%{opacity:1}
+}
+.view p.info, .view h4 {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.effect .mask {
+  opacity: 0;
+  overflow: visible;
+  background-color: rgba(0,0,0,0.7);
+  height: 100%;
+  transition: all 0.4s ease-in-out;
+  padding: 10%;
+}
+
+.effect p.info {
+  position:relative;
+  top:-10px; /* Center the link */
+  opacity: 0;
+  transition: opacity 0.5s 0s ease-in-out;
+}
+
+.effect:hover .mask {
+  opacity: 1;
+}
+
+.effect:hover p.info {
+  opacity:1;
+  transition-delay: 0.3s;
+}
+
+#contact {
+  clear: both;
+}
+
+.posts-detail{
+  box-sizing: inherit;
+}
+
+.posts-detail .close:hover {
+  opacity: 1;
+}
+
+.close {
+  display: block;
+  position: absolute;
+  z-index: 999;
+  right: 0;
+  margin-bottom: 20px;
+  height: 50px;
+  width: 50px;
+  font-size: 3rem;
+  opacity: 0.3;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: lightskyblue;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 70%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: lightskyblue;
+  color: white;
+}
+
+.modal-body {
+  padding: 2px 16px;
+  max-height: 80vh;
+  overflow-y: auto;
+  text-align: center;
+}
+.modal-body p {
+  text-align: justify;
+}
+.modal-footer {
+  padding: 2px 16px;
+  background-color: lightskyblue;
+  color: white;
+}
+
+.modal-image {
+  width: auto;
+  max-width: 90%;
+  height: auto;
+  max-height: 50%;
+}
