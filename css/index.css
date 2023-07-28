@@ -66,7 +66,7 @@
   0%{opacity:0}
   100%{opacity:1}
 }
-.view a.info, .view h4 {
+.view p.info, .view h4 {
   display: inline-block;
   text-decoration: none;
   padding: 0;
@@ -83,7 +83,7 @@
   padding: 10%;
 }
 
-.effect a.info {
+.effect p.info {
   position:relative;
   top:-10px; /* Center the link */
   opacity: 0;
@@ -94,7 +94,7 @@
   opacity: 1;
 }
 
-.effect:hover a.info {
+.effect:hover p.info {
   opacity:1;
   transition-delay: 0.3s;
 }
@@ -149,7 +149,7 @@
   margin: auto;
   padding: 0;
   border: 1px solid #888;
-  width: 80%;
+  width: 70%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
@@ -191,12 +191,22 @@
 
 .modal-body {
   padding: 2px 16px;
-  height: 80vh;
+  max-height: 80vh;
   overflow-y: auto;
+  text-align: center;
 }
-
+.modal-body p {
+  text-align: justify;
+}
 .modal-footer {
   padding: 2px 16px;
   background-color: lightskyblue;
   color: white;
+}
+
+.modal-image {
+  width: auto;
+  max-width: 90%;
+  height: auto;
+  max-height: 50%;
 }

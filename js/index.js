@@ -20,7 +20,7 @@ const postsContainer = document.querySelector(".posts-container");
 const filterContainer = document.querySelector(".filter-container");
 const modalContainer = document.querySelector(".modal");
 
-fetch('https://raw.githubusercontent.com/mitraillet/mitraillet.github.io/Pure-HTML-CSS/data/portfolio.json'
+fetch('https://mitraillet.github.io/data/portfolio.json'
 ).then(async (response) => {
   postsData = await response.json();
   postsData.map((post) => createPost(post));

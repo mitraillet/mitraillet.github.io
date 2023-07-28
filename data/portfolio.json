@@ -2,7 +2,7 @@
   {
     "title": "Network Security Engineer",
     "shortDescription": "Travail chez Swift pendant 3 ans",
-    "description": "Primary technical contact: VPN, serveur Proxy et Mail.Mise en place d'automatisation pour maintenir et déployer des listes d'URL à travers l'infrastructure proxy et le pac file. Scripting afin d'effectuer des tâches basiques sur le VPN et FireEye. Support de 2ème et 3ème ligne pour gérer incidents et problèmes",
+    "description": "Primary technical contact: VPN, serveur Proxy et Mail.<br>Déploiement d'un nouveau cluster VPN.<br>Mise en place d'automatisation pour maintenir et déployer des listes d'URL à travers l'infrastructure proxy et le pac file. <br>Scripting afin d'effectuer des tâches basiques sur le VPN et FireEye. <br>Support de 2ème et 3ème ligne pour gérer incidents et problèmes",
     "icon": "img/Swift.png",
     "image": "img/Swift.png",
     "proof": "https://www.linkedin.com/in/henriquetsteve/#experience",
@@ -17,7 +17,7 @@
   {
     "title": "Stage Escaux",
     "shortDescription": "Stage chez Escaux effectué lors de mes études",
-    "description": "Durant mes étude en Belgique, j'ai eu l'opportunité d'effectuer un stage au sein de Escaux, une PME fournissant un service VoIP. Ce stage m'a permis d'acquérir une première expérience professionnel.",
+    "description": "Durant mes étude en Belgique, j'ai eu l'opportunité d'effectuer un stage au sein de Escaux, une PME fournissant un service VoIP.<br>Ce stage m'a permis d'acquérir une première expérience professionnel.",
     "icon": "img/Escaux.png",
     "image": "img/Escaux.png",
     "proof": "https://www.linkedin.com/in/henriquetsteve/#experience",
